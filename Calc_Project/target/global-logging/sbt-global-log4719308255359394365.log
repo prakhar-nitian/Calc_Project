@@ -1,0 +1,8 @@
+[debug] > Exec(tet, None, None)
+[error] Not a valid command: tet (similar: set, exit, export)
+[error] Not a valid project ID: tet
+[error] Expected ':'
+[error] Not a valid key: tet (similar: test, target, state)
+[error] tet
+[error]    ^
+[debug] > Exec(idea-shell, None, None)

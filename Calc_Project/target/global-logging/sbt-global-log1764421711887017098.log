@@ -1,0 +1,29 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] CalculatorTest:
+[info] CalculatorTest *** ABORTED ***
+[info]   java.lang.NumberFormatException: For input string: "sub"
+[info]   at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+[info]   at java.base/java.lang.Integer.parseInt(Integer.java:652)
+[info]   at java.base/java.lang.Integer.parseInt(Integer.java:770)
+[info]   at scala.collection.StringOps$.toInt$extension(StringOps.scala:910)
+[info]   at Calculator.<init>(Calculator.scala:11)
+[info]   at CalculatorTest.<init>(CalculatorTest.scala:5)
+[info]   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[info]   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+[info]   at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[info]   at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[info]   ...
+[info] Run completed in 15 seconds, 853 milliseconds.
+[info] Total number of tests run: 0
+[info] Suites: completed 0, aborted 1
+[info] Tests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0
+[info] *** 1 SUITE ABORTED ***
+[error] Error during tests:
+[error] 	CalculatorTest
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 24 s, completed Jul 30, 2021, 4:02:08 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

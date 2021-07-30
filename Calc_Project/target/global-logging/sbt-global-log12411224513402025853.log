@@ -1,0 +1,31 @@
+[debug] > Exec(testOnly, None, None)
+[debug] Evaluating tasks: Test / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\c-prakhar.gupta\Desktop\untitled\Calc_Project\target\scala-2.13\classes ...
+[info] done compiling
+[info] CalculatorTest:
+[info] CalculatorTest *** ABORTED ***
+[info]   java.lang.ArithmeticException: / by zero
+[info]   at Calculator.divide(Calculator.scala:9)
+[info]   at Calculator.<init>(Calculator.scala:23)
+[info]   at CalculatorTest.<init>(CalculatorTest.scala:5)
+[info]   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[info]   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+[info]   at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[info]   at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+[info]   at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+[info]   at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:350)
+[info]   at java.base/java.lang.Class.newInstance(Class.java:645)
+[info]   ...
+[info] Run completed in 22 seconds, 288 milliseconds.
+[info] Total number of tests run: 0
+[info] Suites: completed 0, aborted 1
+[info] Tests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0
+[info] *** 1 SUITE ABORTED ***
+[error] Error during tests:
+[error] 	CalculatorTest
+[error] (Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 40 s, completed Jul 30, 2021, 3:59:54 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

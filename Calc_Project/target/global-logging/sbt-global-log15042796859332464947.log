@@ -1,0 +1,17 @@
+[debug] > Exec(test, None, None)
+[debug] Evaluating tasks: Test / test
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] CalculatorTest:
+[info] - Add Test Cases
+[info] - Subtract Test Cases
+[info] - multiply Test Cases
+[info] - Divide Test case
+[info] Run completed in 16 seconds, 995 milliseconds.
+[info] Total number of tests run: 4
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 18 s, completed Jul 30, 2021, 3:55:36 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
