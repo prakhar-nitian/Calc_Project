@@ -19,5 +19,5 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Run tests
-      working-directory: Calc_Project/tree/master/Calc_Project/src
+      working-directory: Calc_Project/tree/master/Calc_Project/src/Test
       run: sbt test
