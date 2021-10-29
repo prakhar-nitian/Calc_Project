@@ -24,4 +24,5 @@ class CalculatorTest extends FunSuite {
     assertThrows[ArithmeticException](calculator_obj.divide(1, 0))
   }
   
+  
 }
