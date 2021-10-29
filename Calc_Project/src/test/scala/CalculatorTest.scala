@@ -1,5 +1,5 @@
 import org.scalatest.FunSuite
-
+   
 class CalculatorTest extends FunSuite {
 
   val calculator_obj = new Calculator
@@ -23,4 +23,5 @@ class CalculatorTest extends FunSuite {
   test("Divide Test case") {
     assertThrows[ArithmeticException](calculator_obj.divide(1, 0))
   }
+  
 }

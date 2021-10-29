@@ -1,5 +1,5 @@
 import scala.io.StdIn.readLine
-
+ 
 class Calculator {
     println("Operations Available : \n 1. add \n 2. sub \n 3. multiply \n 4. divide")
 
